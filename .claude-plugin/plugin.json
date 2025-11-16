@@ -1,0 +1,70 @@
+{
+  "name": "linux-server-mgmt",
+  "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrosehill/linux-server-plugin"
+  },
+  "commands": [
+    "./commands/backups/backup-status.md",
+    "./commands/backups/check-restore-points.md",
+    "./commands/backups/verify-backup-clis.md",
+    "./commands/backups/verify-github-cli.md",
+    "./commands/benchmarking/benchmark-gpu.md",
+    "./commands/benchmarking/benchmark-hardware.md",
+    "./commands/claude-setup.md",
+    "./commands/deployments/deployment-list.md",
+    "./commands/disk/disk-usage.md",
+    "./commands/disk/filesystem-health.md",
+    "./commands/docker/check-docker-permissions.md",
+    "./commands/docker/cleanup-docker.md",
+    "./commands/docker/docker-health.md",
+    "./commands/docker/prune-docker.md",
+    "./commands/documentation/document-distro.md",
+    "./commands/filesystem/cleanup-filesystem.md",
+    "./commands/filesystem/volume-check.md",
+    "./commands/general/check-services.md",
+    "./commands/hardware/gpu-status.md",
+    "./commands/hardware/proxmox-status.md",
+    "./commands/hardware/raid-status.md",
+    "./commands/hardware/system-health.md",
+    "./commands/hardware/xfs-check.md",
+    "./commands/logs/analyze-logs.md",
+    "./commands/logs/check-logs-noteworthy.md",
+    "./commands/networking/check-lan-connectivity.md",
+    "./commands/networking/configuration-ssh-list-ssh-connections.md",
+    "./commands/networking/configuration-ssh-manage-ssh-keys.md",
+    "./commands/networking/network-health.md",
+    "./commands/networking/port-check.md",
+    "./commands/networking/tunnel-status.md",
+    "./commands/nfs/check-nfs-mounts.md",
+    "./commands/notifications/process-monitor.md",
+    "./commands/notifications/resource-alerts.md",
+    "./commands/notifications/uptime-stats.md",
+    "./commands/optimisation/boot-time.md",
+    "./commands/seurity/certificate-check.md",
+    "./commands/seurity/firewall-check.md",
+    "./commands/seurity/security-audit.md",
+    "./commands/testing/email-test.md",
+    "./commands/updates/check-updates.md",
+    "./commands/updates/manage-autoupdate.md",
+    "./commands/updates/update-check.md"
+  ],
+  "agents": [
+    "./agents/docker-troubleshooter.md",
+    "./agents/service-monitor.md",
+    "./agents/storage-manager.md",
+    "./agents/tunnel-manager.md"
+  ],
+  "keywords": [
+    "sysadmin",
+    "linux-server"
+  ]
+}
