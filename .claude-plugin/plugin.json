@@ -8,10 +8,7 @@
     "url": "https://danielrosehill.com"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danielrosehill/linux-server-plugin"
-  },
+  "repository": "https://github.com/danielrosehill/linux-server-plugin",
   "commands": [
     "./commands/backups/backup-status.md",
     "./commands/backups/check-restore-points.md",
